@@ -1,0 +1,633 @@
+====ORIGINAL====
+Consider the function f(x) = ax2+bx+c where a, b, and c are coefficients of the polynomial. The solution can be written as
+
+x = -b+- sqrtb^2-4ac/2a
+
+and the number of real solutions depends on the values for a, b, and c.
+====LATEX====
+Consider the function $f(x) = ax^2+bx+c$ where $a$, $b$, and $c$ are coefficients of the polynomial. The solution can be written as
+$$
+x = \frac{-b \pm \sqrt{b^2-4ac}}{2a}
+$$
+and the number of real solutions depends on the values for $a$, $b$, and $c$.
+
+====ORIGINAL====
+A basis of a vector space V is a linearly independent spanning set of V. v1...vn is linearly independent. In other words, V = span{v1...vn}.
+====LATEX====
+A basis of a vector space $V$ is a linearly independent spanning set of $V$. $v_1 \dots v_n$ is linearly independent. In other words, $V = \text{span} \left\{ v_1 \dots v_n \right\}$.
+
+====ORIGINAL====
+If we have the equation of a straight line: y=mx+b where m=2 and b= 4, we know that the x intercept must be equal to -2 because we can do the algebra as follows:
+
+y=mx+b
+0=2x+4
+-2x=4
+x=-2
+====LATEX====
+If we have the equation of a straight line: $y=mx+b$ where $m=2$ and $b=4$, we know that the x intercept must be equal to $-2$ because we can do the algebra as follows:
+$$
+\begin{align*}
+y &= mx+b \\
+0 &= 2x+4 \\
+-2x &= 4 \\
+x &= -2
+\end{align*}
+$$
+
+====ORIGINAL====
+Let A be an nxn matrix. Our goal will be to reduce A to plain row echelon form, which is an upper triangular matrix U. This will be done using a series of elementary matrices E1...Ek successively.
+
+A ->{E1} A1 ->{E2} ... ->{Ek} U
+
+A = [
+2 -1 1
+4 2 1
+3 1 1
+]
+====LATEX====
+Let $A$ be an $n \times n$ matrix. Our goal will be to reduce $A$ to plain row echelon form, which is an upper triangular matrix $U$. This will be done using a series of elementary matrices $E_1 \dots E_k$ successively.
+$$
+A \xrightarrow{E_1} A_1 \xrightarrow{E_2} \dots \xrightarrow{E_k} U
+$$
+$$
+A = \begin{bmatrix}
+2 & -1 & 1 \\
+4 & 2 & 1 \\
+3 & 1 & 1
+\end{bmatrix}
+$$
+
+====ORIGINAL====
+A = {1, 2, 3, 4, 5}
+B = {x | x in naturals, 1 <=x<=5}
+C = {2, 4, 6, 8, 10, 12, 14}
+D = {2x | x in NN, 1 <=x<=7}
+====LATEX====
+$$
+\begin{align*}
+A &= set{ 1, 2, 3, 4, 5 } \\
+B &= set{ x \mid x \in \mathbb{N}, 1 \le x \le 5 } \\
+C &= set{ 2, 4, 6, 8, 10, 12, 14 } \\
+D &= set{ 2x \mid x \in \mathbb{N}, 1 \le x \le 7 }
+\end{align*}
+$$
+
+====ORIGINAL====
+We can define set equality as each set being a subset of the other. Let us see this in action:
+
+A=B if A subset B and B subset A
+
+====LATEX====
+We can define set equality as each set being a subset of the other. Let us see this in action:
+$$
+A = B \text{ if } A \subseteq B \text{ and }  B \subseteq A
+$$
+
+====ORIGINAL====
+There exist real numbers a and b such that (a+b)^2=a^2+b^2.
+proof (direct): Let a=b=0
+
+(a+b)^2=(0+0)^2
+=0^2
+=0^2+0^2
+====LATEX====
+There exists real numbers $a$ and $b$ such that $(a+b)^2 = a^2 + b^2$.
+proof (direct): Let $a = b = 0$
+$$
+\begin{align*}
+(a+b)^2 &= (0+0)^2 \\
+&= 0^2 \\
+&= 0^2 + 0^2
+\end{align*}
+$$
+
+====ORIGINAL====
+\integral x^2 dx = x3/3+C
+====LATEX====
+$$
+\int x^2 dx = \frac{x^3}{3} + C
+$$
+
+====ORIGINAL====
+\int sec3x dx = 1/2 secx tanx + 1/2ln(secx + tanx)+C
+====LATEX====
+$$
+\int \sec^3(x) dx = \frac1 2 \sec x \tan x + \frac1 2 \ln | \sec x + \tan x | + C
+$$
+
+====ORIGINAL====
+Function Equality:
+Two functions f and g are equal if they have the same rule, they have the same domains (fancyD_1 = fancyD_2), and they have the same codomains (fancyR_1 = fancyR_2).
+====LATEX====
+Function Equality:
+Two functions $f$ and $g$ are equal if they have the same rule, they have the same domains ($\mathcal{D}_1 = \mathcal{D}_2$), and they have the same codomains ($\mathcal{R}_1 = \mathcal{R}_2$).
+
+====ORIGINAL====
+colvec[1, 2] dot colvec[3, 5] = (1)(3)+(2)(5) = 3+10=13
+====LATEX====
+$$
+\begin{bmatrix} 1 \\ 2 \end{bmatrix} \cdot \begin{bmatrix} 3 \\ 5 \end{bmatrix} = (1)(3) + (2)(5) = 3 + 10 = 13
+$$
+
+====ORIGINAL====
+Consider the following vectorspace V=RR^2. Let us also consider the following subset W:
+
+W = { vec[a, 0] : a in reals }
+
+Is the subset W also a subspace of V?
+====LATEX====
+Consider the following vectorspace $V = \mathbb{R}^2$. Let us also consider the following subset $W$:
+$$
+W = \left\{ \begin{bmatrix} a \\ 0 \end{bmatrix}: a \in \mathbb{R} \right\}
+$$
+Is the subset $W$ also a subspace of $V$?
+
+====ORIGINAL====
+x2-4x+5 can be factored as (x-5)(x+1) just like how x2+4x-21 can be factored as (x+7)(x-3). In fact, any quadratic of the form x2+(b+c)x+bc can be factored as (x+b)(x+c), we just need to find the factors.
+====LATEX====
+$x^2-4x+5$ can be factored as $(x-5)(x+1)$, just like how $x^2+4x-21$ can be factored as $(x+7)(x-3)$. In fact, any quadratic of the form $x^2 + (b+c)x + bc$ can be factored as $(x+b)(x+c)$, we just need to find the factors.
+
+====ORIGINAL====
+When we perform these expansions:
+
+(a+b)^0 = 1
+(a+b)^1 = a+b
+(a+b)^2 = a2+2ab+b2
+(a+b)^3 = a3+3a^2b + 3ab^2 + b3
+(a+b)^4 = a4+4a3b+6a2b2+4ab3+b4
+...
+
+We see interesting patterns relating to Pascal's triangle that emerge.
+====LATEX====
+When we perform these expansions:
+$$
+\begin{align*}
+(a + b)^0 &= 1 \\
+(a + b)^1 &= a + b \\
+(a + b)^2 &= a^2 + 2ab + b^2 \\
+(a + b)^3 &= a^3 + 3a^2b + 3ab^2 + b^3 \\
+(a + b)^4 &= a^4 + 4a^3b + 6a^2b^2 + 4ab^3 + b^4 \\
+\vdots
+\end{align*}
+$$
+We see interesting patterns relating to Pascal's triangle that emerge.
+
+====ORIGINAL====
+The absolute value function tells how far a number is from 0. We denote the absolute value of x with the notation |x|. When x in RR, |x| can be defined piecewise as:
+
+|x| = CASES {
+x           x>=0
+-x         x < 0
+}
+====LATEX====
+The absolute value function tells how far a number is from $0$. We denote the absolute value of $x$ with the notation $|x|$. When $x \in \mathbb{R}$, $|x|$ can be defined piecewise as:
+$$
+|x| =
+\begin{cases}
+x & x \ge 0 \\
+-x & x \le 0
+\end{cases}
+$$
+
+====ORIGINAL====
+The binomial theorem is as follows:
+
+(x+y)^n = sum from k=0 to n (n choose k) x^(n-k) y^k
+====LATEX====
+The binomial theorem is as follows:
+$$
+(x + y)^n = \sum_{k=0}^n \binom{n}{k} x^{n-k} y^k
+$$
+
+====ORIGINAL====
+f is an even function if f(-x) = fx and f is odd if f(-x) = -fx
+====LATEX====
+$f$ is an even function if $f(-x) = f(x)$ and $f$ is odd if $f(-x) = -f(x)$
+
+====ORIGINAL====
+fancyL{e^at f(t)}(s) = fancyL{f}(s-a)
+====LATEX====
+$$
+\mathcal{L} \left\{ e^{at} f(t) \right\}(s) = \mathcal{L} \left\{ f \right\}(s-a)
+$$
+
+====ORIGINAL====
+An mxn matrix with entries from a field F is a rectangular array of the form
+
+matrix(
+a11 a12 ... a1n
+a21 a22 ... a2n
+... ...     ...
+am1 am2 ... amn
+)
+
+where each entry a_ij (1 <= i <= m, 1<=j<=n) is an element of F.
+====LATEX====
+An $m \times n$ matrix with entries from a field $F$ is a rectangular array of the form
+$$
+\begin{pmatrix}
+a_{11} & a_{12} & \dots & a_{1n} \\
+a_{21} & a_{22} & \dots & a_{2n} \\
+\vdots & \vdots & & \vdots \\
+a_{m1} & a_{m2} & \dots & a_{mn}
+\end{pmatrix}
+$$
+where each entry $a_{ij}$ $(1 \le i \le m, 1 \le j \le n)$ is an element of $F$.
+
+====ORIGINAL====
+The Pythagorean theorem says that for a right triangle with legs of length a, b and hypotenuse of length c that a2+b2=c2.
+====LATEX====
+The Pythagorean theorem says that for a right triangle with legs of length $a$, $b$ and hypotenuse of length $c$ that $a^2 + b^2 = c^2$.
+
+====ORIGINAL====
+int -inf inf of e^-x^2 dx = sqrt pi
+====LATEX====
+$$
+\int_\infty^\infty e^{-x^2} dx = \sqrt{ \pi }
+$$
+
+====ORIGINAL====
+The most general form of a probability density function for a normally distributed variable is:
+
+f(x) = 1/(sigma sqrt2pi) e^(-1/2 (x-mu/sigma)^2)
+====LATEX====
+The most general form of a probability density function for a normally distributed variable is:
+$$
+f(x) = \frac{1}{\sigma \sqrt{2 \pi}} e^{-\frac{1}{2} \left( \frac{x - \mu}{\sigma} \right)^2 }
+$$
+
+====ORIGINAL====
+Find the complex roots of the quadratic equation
+
+z^2-(4-i)z+(5-5i)=0
+====LATEX====
+Find the complex roots of the quadratic equation
+$$
+z^2 - (4 - i) z + (5 - 5i) = 0
+$$
+
+====ORIGINAL====
+We will convert 1-i to polar coordinates.
+
+1-i = r(costheta + isintheta)
+
+We know that r = sqrt(1+1) = rt2. We also know that
+
+tan alpha = b/a = -1/1 = -1
+alpha = -pi/4
+
+Since the number is in the 4th quadrant, alpha does not need to be incremented by pi. Our final answer is:
+
+1-i = sqrt2 (cos(-pi/4)+isin(-pi/4))
+====LATEX====
+We will convert $1 - i$ to polar coordinates
+$$
+1 - i = r(\cos \theta + i \sin \theta)
+$$
+We know that $r = \sqrt{1 + 1} = \sqrt{2}$. We also know that
+$$
+\begin{align*}
+\tan \alpha &= \frac{b}{a} = \frac{-1}{1} = -1 \\
+\alpha &= - \frac{\pi}{4} \\
+\end{align*}
+$$
+Since the number is in the 4th quadrant, $\alpha$ does not need to be incremented by $\pi$. Our final answer is:
+$$
+1 - i = \sqrt{2} \left( \cos \left( - \frac{\pi}{4} \right) + i \sin \left( -\frac{\pi}{4} \right) \right)
+$$
+
+====ORIGINAL====
+Given rbar (t) = <7t, 2cos(t), 2sin(t)>, find
+
+a. the unit tangent Tbar(t) and unit normal Nbar(t)
+b. the curvature kappa(t)
+
+Ans:
+
+Tbar(t) = < 7/sqrt53, 2sin(t)/sqrt53, 2cos(t)/sqrt53>
+Nbar(t) = <0, -cos(t), -sin(t)>
+kappa(t) = 2\sqrt53
+====LATEX====
+Given $\bar{r}(t) = \langle 7t, 2 \cos(t), 2 \sin(t) \rangle$, find
+
+a. the unit tangent $\bar{T}$(t) and unit normal $\bar{N}(t)$
+b. the curvature $\kappa (t)$
+
+Ans:
+$$
+\begin{align*}
+\bar{T}(t) &= \left\langle \frac{7}{\sqrt{53}}, \frac{2 \sin(t)}{\sqrt{53}}, \frac{2 \cos(t)}{\sqrt{53}} \right\rangle \\
+\bar{N}(t) &= \langle 0, - \cos(t), - \sin(t) \rangle \\
+\kappa(t) &= \frac{2}{\sqrt{53}}
+\end{align*}
+$$
+
+====ORIGINAL====
+Here is a simple statement: 1+2=3.
+====LATEX====
+Here is a simple statement: $1 + 2 = 3$.
+
+====ORIGINAL====
+Let V be a vectorspace over F. A linear combination of vectors v1...vk in V can be written in the form:
+
+a1v1+a2v2+...+akvk for a1, a2, ..., ak in F
+====LATEX====
+Let $V$ be a vectorspace over $F$. A linear combination of vectors $v_1 \dots v_k$ in $V$ can be written in the form:
+$$
+a_1 v_1 + a_2 v_2 + \dots + a_k v_k \text{ for } a_1, a_2, \dots , a_k \in F
+$$
+
+====ORIGINAL====
+This is the set of all continuous functions RR->RR
+
+V = scriptC(RR)
+
+And this is the set of all differentiable functions RR->RR
+
+V = scriptC^1(RR)
+====LATEX====
+This is the set of all continuous functions $\mathbb{R} \rightarrow \mathbb{R}$
+$$
+V = \mathcal{C}(\mathbb{R})
+$$
+And this is the set of all differentiable functions $\mathbb{R} \rightarrow \mathbb{R}$
+$$
+V = \mathcal{C}^1(\mathbb{R})
+$$
+
+====ORIGINAL====
+lim as x, y -> 0, 0 (xycosy)/(3x^2+y^2)
+====LATEX====
+$$
+\lim_{(x, y) \rightarrow (0, 0)} \frac{xy \cos y}{3 x^2 + y^2}
+$$
+
+====ORIGINAL====
+[
+2 3 5
+0 -1 -2
+] *
+[
+4 4
+0 9
+-3 0
+] = [
+-7 35
+6 -9
+]
+====LATEX====
+$$
+\begin{bmatrix}
+2 & 3 & 5 \\
+0 & -1 & -2
+\end{bmatrix}
+\cdot
+\begin{bmatrix}
+4 & 4 \\
+0 & 9 \\
+-3 & 0 \\
+\end{bmatrix} = 
+\begin{bmatrix}
+-7 & 35 \\
+6 & -9
+\end{bmatrix}
+$$
+
+====ORIGINAL====
+Geometric Series
+
+sum n=0 inf ax^n
+
+- converges to a/1-x only if |x| <1. Diverges if |x| >= 1
+====LATEX====
+Geometric Series
+$$
+\sum_{n=0}^{\infty} a x^n
+$$
+- converges to $\frac{a}{1 - x}$ only if $|x| \lt 1$. Diverges if $|x| \ge 1$
+
+====ORIGINAL====
+The comparison series \sum b_n is often a geometric series or a p-series. To find b_n consider only the terms of a_n that have the greatest effect on the magnitude.
+====LATEX====
+The comparison series $\sum b_n$ is often a geometric series or a p-series. To find $b_n$ consider only the terms of $a_n$ that have the greatest effect on the magnitude.
+
+
+====ORIGINAL====
+int x/{x^2+1} dx
+int x sqrt{x^2+1} dx
+
+are both easily solved by setting u=x^2+1.
+====LATEX====
+$$
+\int \frac{x}{x^2 + 1} dx \\
+\int x \sqrt{x^2 + 1} dx
+$$
+are both easily solved by setting $u = x^2 + 1$.
+
+====ORIGINAL====
+The area A of a circle depends on the radius r of the circle. The rule that connects r and A is given by the equation A=pi r2. With each positive number r there is associated one value of A, and we say that A is a function of r.
+====LATEX====
+The area $A$ of a circle depends on the radius $r$ of the circle. The rule that connects $r$ and $A$ is given by the equation $A = \pi r^2$. With each positive number $r$ there is associated one value of $A$, and we say that $A$ is a function of $r$.
+
+====ORIGINAL====
+A function f is defined by
+
+f(x) = {
+1-x if x<= -1
+x^2 if x > -1
+}
+
+Evaluate f(-2), f(-1), and f0 and sketch the graph.
+====LATEX====
+A function $f$ is defined by
+$$
+f(x) =
+\begin{cases}
+1 - x & \text{ if } x\le -1 \\
+x^2 & \text{ if } x \ge -1
+\end{cases}
+$$
+Evaluate $f(-2)$, $f(-1)$, and $f(0)$ and sketch the graph.
+
+====ORIGINAL====
+Let f be a one-to-one function with domain A and range B. Then its inverse function f^-1 has domain B and range A and is defined by
+
+f-1(y)=x <=> f(x)=y
+
+for any y in B
+====LATEX====
+Let $f$ be a one-to-one function with domain $A$ and range $B$. Then its inverse function $f^{-1}$ has domain $B$ and range $A$ and is defined by
+$$
+f^{-1}(y) = x \Leftrightarrow f(x) = y
+$$
+for any $y$ in $B$
+
+====ORIGINAL====
+sin-1(x)=y <=> siny = x and -pi/2 <=y <= pi/2
+====LATEX====
+$$
+\sin^{-1}x = y \Leftrightarrow \sin y = x \text{ and } - \frac{\pi}{2} \le y \le \frac{\pi}{2}
+$$
+
+====ORIGINAL====
+In the theory of relativity, the mass of a particle with velocity v is
+
+m = m0/sqrt(1-v^2/c^2)
+
+where m0 is the mass of the particle at rest and c is the speed of light. Evaluate
+
+lim{v->c -} m
+====LATEX====
+In the theory of relativity, the mass of a particle with velocity $v$ is
+$$
+m  =\frac{m_0}{\sqrt{1-\frac{v^2}{c^2}}}
+$$
+where $m_0$ is the mass of the particle at rest and $c$ is the speed of light. Evaluate
+$$
+\lim_{v \rightarrow c^-} m
+$$
+
+====ORIGINAL====
+The relationship between x and y is given by the Pythagorean Theorem:
+
+x2+y2=100
+
+Differentiating each side with respect to t using the Chain Rule, we have
+
+2x dx/dt + 2y dy/dt = 0
+
+when x=6, the Pythagorean Theorem gives y=8 and so, substituting these values and dx/dt = 1, we have
+
+dy/dt = -6/8(1) = -3/4
+====LATEX====
+The relationship between $x$ and $y$ is given by the Pythagorean Theorem:
+$$
+x^2 + y^2 = 100
+$$
+Differentiating each side with respect to $t$ using the Chain Rule, we have
+$$
+2x \frac{dx}{dt} + 2y \frac{dy}{dt} = 0
+$$
+when $x = 6$, the Pythagorean Theorem gives $y = 8$ and so, substituting these values and $\frac{dx}{dt} = 1$, we have
+$$
+\frac{dy}{dt} = - \frac{6}{8} (1) = - \frac{3}{4}
+$$
+
+====ORIGINAL====
+Binet's formula is a closed-form expression for the Fibonacci numbers, F_n. The n-th Fibonacci number can be expressed as 
+F_n = (phi^n - psi^n) / (phi - psi) = (phi^n - psi^n) / sqrt(5)
+where phi is the golden ratio and psi is its conjugate. phi = (1 + sqrt(5)) / 2 
+psi = (1 - sqrt(5)) / 2
+====LATEX====
+Binet's formula is a closed-form expression for the Fibonacci numbers, $F_n$. The $n$-th Fibonacci number can be expressed as 
+$$
+F_n = \frac{(\varphi^n - \psi^n)}{(\varphi - \psi)} = \frac{(\varphi^n - \psi^n)}{\sqrt{5}}
+$$
+where $\varphi$ is the golden ratio and $\psi$ is its conjugate.
+$$
+\varphi = \frac{1 + \sqrt{5}}{2} \\ \psi = \frac{1 - \sqrt{5}}{2}
+$$
+
+
+====ORIGINAL====
+The golden ratio, phi, can be expressed as an infinite continued fraction.
+	phi = 1 + 1 / (1 + (1 / (1 + (1 / ...))))
+=====LATEX====
+The golden ratio, $\varphi$, can be expressed as an infinite continued fraction.
+$$
+\varphi = 1 + \frac{1}{1 + \frac{1}{1 + \frac{1}{1 + \frac{1}{1 + \dots }}}}
+$$
+
+====ORIGINAL====
+Fermat's Last Theorem states that no three positive integers, a, b, and c, satisfy (a^n + b^n = c^n) for n > 2. Formally:
+
+forall n in Z^+ - {0}, n > 2, \theredoesnotexist a, b, c in Z : a^n + b^n = c^n
+
+The n = 2 case has infinitely many solutions, commonly called Pythagorean Triples, stemming from the fact that a^2 + b^2 = c^2 is Pythagoras' theorem for right triangles.
+====LATEX====
+Fermat's Last Theorem states that no three positive integers, $a$, $b$, and $c$, satisfy $(a^n + b^n = c^n)$ for $n \gt 2$. Formally:
+$$
+\forall n \in \mathbb{Z}^{+} - \{ 0 \}, n \gt 2, \nexists a, b, c \in \mathbb{Z}: a^n + b^n = c^n
+$$
+The $n = 2$ case has infinitely many solutions, commonly called Pythagorean Triples, stemming from the fact that $a^2 + b^2 = c^2$ is Pythagoras' theorem for right triangles.
+
+====ORIGINAL====
+Fermat's Little Theorem states that if p is a prime number, then for any integer a, a^p - a is an integer multiple of p. This can also be expressed as
+
+a^p equiv a mod p
+
+Formally,
+
+p in PP -> forall a in Z, a^p equiv a mod p
+
+Corollary, if gcd(a, p)=1 (a and p are coprime), a can be divided through to give 
+
+a^{p-1} === 1 mod p
+====LATEX====
+Fermat's Little Theorem states that if $p$ is a prime number, then for $a \in \mathbb{Z}$, $a^p - a$ is an integer multiple of $p$. This can also be expressed as
+$$
+a^p \equiv a \mod{p}
+$$
+Formally,
+$$
+p \in \mathbb{P} \rightarrow \forall a \in \mathbb{Z}, a^p \equiv a \mod p
+$$ Corollary: if $\gcd(a, p) = 1$ ($a$ and $p$ are coprime) $a$ can be divided through to give
+$$
+a^{p-1} \equiv 1 \mod p
+$$
+
+====ORIGINAL====
+The Taylor series expansion of a function f(x) which is infinitely differentiable at the value a can be written as the power series:
+(f(a)/0!)(x-a)^0 + (f'(a)/1!)(x-a)^1 + (f''(a)/2!)(x-a)^2 + (f'''(a)/3!)(x-a)^3 + ...
+Expressed using sigma notation: 
+sum from n=0 to inf f^n(a)/n! (x-a)^n
+====LATEX====
+The Taylor series expansion of a function $f(x)$ which is infinitely differentiable at the value $a$ can be written as the power series: $$
+\frac{f(a)}{0!}(x - a)^0 + \frac{f'(a)}{1!}(x - a)^1 + \frac{f''(a)}{2!}(x - a)^2 + \frac{f'''(a)}{3!}(x - a)^3 + \dots
+$$
+Expressed using sigma notation:
+$$
+\sum_{n=0}^{\infty} \frac{f^{(n)}(a)}{n!}(x - a)^n
+$$
+
+====ORIGINAL====
+The Riemann hypothesis is a famous unsolved conjecture stating the Riemann zeta function has zeroes only for {2s : s in Z^-} and {s: Re(s) = 1/2}. The riemann zeta function is defined for {s: Re(s) > 1} by the absolutely convergent series:
+
+zeta of s = sum n=1 to inf 1/n^-s = 1/1^S + 1/2^s + 1/3^s + ...
+
+Euler proved the zeta function can also be expressed as: 
+
+zeta(s) = \prod_{p = prime} 1/{1-p^-s} = 1/{1-2^-s} * 1/{1-3^-s} * ...
+====LATEX====
+The Riemann hypothesis is a famous unsolved conjecture stating that the Riemann zeta function has zeroes only for $\{2s : s \in \mathbb{Z}^-\}$ and $\{s: \Re(s) = \frac{1}{2}\}$. The Riemann zeta function is defined for $\{s : \Re(s) > 1\}$ by the absolutely convergent series:
+$$
+\zeta(s) = \sum_{n=1}^{\infty} \frac{1}{n^{-s}} = \frac{1}{1^s} + \frac{1}{2^s} + \frac{1}{3^s} + \dots
+$$
+Euler proved the zeta function can also be expressed as:
+$$
+\zeta(s) = \prod_{p = \textrm{prime}} \frac{1}{1 - p^{-s}} = \frac{1}{1 - 2^{-s}} \cdot \frac{1}{1 - 3^{-s}} \cdot \frac{1}{1 - 5^{-s}} \cdot \dots
+$$
+
+====ORIGINAL====
+FTC1
+
+d/dx int from a to x f(t) dt = f(x)
+
+FTC2
+
+int a to b of f'(x) dx = f(b) - f(a)
+====LATEX====
+FTC1
+$$
+\frac{d}{dx} \int_a^x f(t) dt = f(x)
+$$
+FTC2
+$$
+\int_a^b f(x) dx = F(b) - F(a)
+$$
+
+====ORIGINAL====
+In a class of 30 children, there are g girls. What fraction of the class are girls? g/30.
+====LATEX====
+In a class of $30$ children, there are $g$ girls. What fraction of the class are girls? $\frac{g}{30}$.
+
