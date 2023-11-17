@@ -15,8 +15,9 @@ function App() {
       <p>Typing mathematics with AI</p>
       <div id="interface">
         <MathInput makeUpdate={setUserMath}/>
-        <MathRenderer mathExpression={userMath} />
+        <MathRenderer mathExpression={mathExp} />
       </div>
+      <RenderButton changeText={setMathExp}/>
     </>
   );
 }

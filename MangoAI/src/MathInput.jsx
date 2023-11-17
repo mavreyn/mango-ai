@@ -15,7 +15,7 @@ export default function MathInput(props) {
             <textarea
                 id="userMath"
                 type="text"
-                onChange={e => handleUpdate(e.target.value)}
+                 // onChange={e => handleUpdate(e.target.value)}
             />
         </div>
     );
